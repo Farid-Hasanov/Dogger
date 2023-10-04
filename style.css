@@ -24,6 +24,22 @@ body {
   color: #a8a8a8;
   line-height: 1.2;
 }
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    margin-bottom: 25px;
+  }
+  #carefor .textbox h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+  #carefor .textbox h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+  #carefor .imgbox {
+    width: 70%;
+  }
+}
 
 #welcome {
   padding: 40px 0;
