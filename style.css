@@ -1,0 +1,336 @@
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.imgbox img {
+  width: 100%;
+}
+
+#carefor {
+  padding: 50px 0;
+}
+#carefor .textbox {
+  width: 450px;
+}
+#carefor .textbox h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 0 10px;
+  line-height: 1.2;
+}
+#carefor .textbox h4 {
+  font-size: 24px;
+  color: #a8a8a8;
+  line-height: 1.2;
+}
+
+#welcome {
+  padding: 40px 0;
+}
+#welcome .textbox {
+  padding: 80px;
+}
+#welcome .textbox h1 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#welcome .textbox h3 {
+  font-size: 20px;
+  color: #8c8c8c;
+  margin: 20px 0 40px;
+  line-height: 1.4;
+}
+#welcome .textbox h2 {
+  font-size: 33px;
+}
+#welcome .textbox h6 {
+  font-size: 18px;
+  color: #a2a2a2;
+  margin: 15px 0;
+  line-height: 1.6;
+}
+#welcome .textbox .btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #a7b59f;
+  color: white;
+}
+#welcome .wid {
+  width: 580px;
+}
+#welcome .icon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+
+#aboutus {
+  padding: 40px 0;
+}
+#aboutus .textbox {
+  padding: 0 100px;
+}
+#aboutus .textbox .bigicon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+#aboutus .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 20px 0 0;
+}
+#aboutus .textbox h3, #aboutus .textbox p {
+  color: #a8a8a8;
+  font-size: 20px;
+  font-weight: 100;
+  margin: 20px 0 0;
+  line-height: 1.6;
+}
+#aboutus .textbox p {
+  font-size: 18px;
+  color: #949494;
+  line-height: 1.4;
+}
+#aboutus .textbox li {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+#aboutus .textbox li .icon {
+  color: #5f8288;
+  padding: 0 15px 0 0;
+}
+#aboutus .textbox li h4 {
+  font-size: 20px;
+  color: #949494;
+}
+
+#ourtrainers {
+  padding: 40px 0;
+}
+#ourtrainers .wid {
+  width: 580px;
+}
+#ourtrainers .bigicon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+#ourtrainers h1 {
+  font-weight: 700;
+  font-size: 38px;
+  margin: 20px 0 0;
+}
+#ourtrainers h3, #ourtrainers h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: #979797;
+  margin: 20px 0;
+  line-height: 1.4;
+}
+#ourtrainers .box {
+  margin: 0 5px;
+}
+#ourtrainers .box .textbox {
+  padding: 15px;
+}
+#ourtrainers .box h2 {
+  font-weight: 300;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+#ourtrainers .box ul {
+  display: flex;
+  flex-direction: row;
+}
+#ourtrainers .box ul li {
+  margin: 0 10px;
+  background-color: #d4cece;
+  border-radius: 50%;
+  padding: 20px;
+  width: 10px;
+  height: 10px;
+}
+#ourtrainers .box ul li .icon {
+  margin: -7px;
+}
+
+#pricingtable {
+  padding: 40px 0;
+}
+#pricingtable .textbox {
+  width: 580px;
+}
+#pricingtable .textbox .icon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+#pricingtable .textbox h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 20px 0 20px;
+}
+#pricingtable .textbox h5 {
+  font-weight: 200;
+  font-size: 20px;
+  margin: 0 0 50px;
+  color: #979797;
+}
+#pricingtable .box {
+  width: 340px;
+  color: white;
+  background-color: #708f97;
+  padding: 50px 30px;
+  text-align: center;
+}
+#pricingtable .box h2 {
+  font-size: 25px;
+}
+#pricingtable .box h3 {
+  font-size: 30px;
+  margin: 20px 0 0;
+}
+#pricingtable .box li {
+  display: flex;
+  justify-content: center;
+  margin: 25px 0 0;
+}
+#pricingtable .box li h4 {
+  font-size: 18px;
+  margin: 0 0 0 10px;
+}
+#pricingtable .box .btn {
+  color: white;
+  border-radius: 30px;
+  background-color: #2b383c;
+  padding: 10px 35px;
+  margin: 30px 0 0;
+}
+#pricingtable .PREMIUM-color {
+  background-color: #2b383c;
+}
+#pricingtable .PREMIUM-color .btn {
+  background-color: #708f97;
+}
+
+#questions {
+  padding: 40px 0;
+}
+#questions .wid {
+  width: 580px;
+}
+#questions .bigicon i {
+  font-size: 30px;
+  color: #5f8288;
+}
+#questions h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin: 15px 0;
+}
+#questions h3 {
+  font-size: 20px;
+  margin: 0 0 40px;
+  line-height: 1.4;
+  color: #a2a2a2;
+}
+#questions .textbox {
+  padding: 0 70px;
+}
+#questions .textbox h2, #questions .textbox h4 {
+  font-size: 25px;
+  margin: 0 0 0 10px;
+  color: #717171;
+}
+#questions .textbox .minibox {
+  margin: 10px 0 0 0;
+}
+#questions .textbox p {
+  font-size: 20px;
+  margin: 30px 0 0 32px;
+  color: #949494;
+}
+#questions .textbox li {
+  margin: 30px 0 0;
+  display: flex;
+}
+#questions .textbox .icon i {
+  color: #5f8288;
+  font-size: 22px;
+}
+
+#doggerblog {
+  padding: 40px 0;
+}
+#doggerblog .wid {
+  width: 580px;
+}
+#doggerblog .icon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+#doggerblog h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 20px 0 0;
+}
+#doggerblog h3 {
+  font-size: 20px;
+  margin: 30px 0 60px;
+  color: #939393;
+}
+#doggerblog .box {
+  display: flex;
+}
+#doggerblog .box .textbox {
+  margin: 0 0 0 20px;
+}
+#doggerblog .box .textbox h2 {
+  font-size: 22px;
+}
+#doggerblog .box .textbox h4 {
+  font-size: 18px;
+  color: #aba8a8;
+}
+#doggerblog .box .textbox p {
+  font-size: 18px;
+  color: #8f8686;
+  line-height: 1.6;
+}
+#doggerblog .box .textbox h4, #doggerblog .box .textbox p {
+  margin: 20px 0 0;
+}
+
+#ourservices {
+  padding: 40px 0;
+}
+#ourservices .wid {
+  width: 580px;
+}
+#ourservices .bigicon i {
+  color: #5f8288;
+  font-size: 30px;
+}
+#ourservices h1 {
+  font-weight: 700;
+  font-size: 35px;
+  margin: 20px 0 0;
+}
+#ourservices h3 {
+  font-size: 20px;
+  color: #929292;
+  margin: 30px 0;
+  line-height: 1.4;
+}
+#ourservices .textbox {
+  padding: 30px 40px;
+}
+#ourservices .textbox h2 {
+  font-size: 25px;
+  margin: 20px 0 0;
+}
+#ourservices .textbox h3 {
+  margin: 30px 0 0;
+}
+#ourservices .textbox .icon {
+  font-size: 60px;
+}/*# sourceMappingURL=style.css.map */
