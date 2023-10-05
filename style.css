@@ -80,6 +80,23 @@ body {
   color: #5f8288;
   font-size: 30px;
 }
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 20px 0;
+  }
+  #welcome .textbox h1 {
+    font-size: 28px;
+  }
+  #welcome .textbox h3 {
+    font-size: 18px;
+  }
+  #welcome .textbox h2 {
+    font-size: 30px;
+  }
+  #welcome .imgbox {
+    margin-top: 20px;
+  }
+}
 
 #aboutus {
   padding: 40px 0;
