@@ -93,8 +93,31 @@ body {
   #welcome .textbox h2 {
     font-size: 30px;
   }
+  #welcome .textbox h6 {
+    line-height: 1.2;
+  }
   #welcome .imgbox {
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #welcome .textbox {
+    padding: 20px 0;
+  }
+  #welcome .textbox h1 {
+    font-size: 25px;
+  }
+  #welcome .textbox h3 {
+    font-size: 16px;
+  }
+  #welcome .textbox h2 {
+    font-size: 27px;
+  }
+  #welcome .textbox h6 {
+    font-size: 18px;
+  }
+  #welcome .imgbox {
+    margin-top: 28px;
   }
 }
 
@@ -136,6 +159,22 @@ body {
 #aboutus .textbox li h4 {
   font-size: 20px;
   color: #949494;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0;
+  }
+  #aboutus .textbox h3 {
+    line-height: 1.6;
+  }
+  #aboutus .textbox li {
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .imgbox {
+    margin-top: 20px;
+  }
 }
 
 #ourtrainers {
