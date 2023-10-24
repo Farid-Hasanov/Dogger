@@ -398,6 +398,17 @@ body {
 #doggerblog .box .textbox h4, #doggerblog .box .textbox p {
   margin: 20px 0 0;
 }
+@media screen and (max-width: 992px) {
+  #doggerblog .box .textbox h2 {
+    font-size: 20px;
+  }
+  #doggerblog .box .textbox h4 {
+    font-size: 16px;
+  }
+  #doggerblog .box .textbox p {
+    font-size: 16px;
+  }
+}
 
 #ourservices {
   padding: 40px 0;
@@ -432,4 +443,15 @@ body {
 }
 #ourservices .textbox .icon {
   font-size: 60px;
+}
+@media screen and (max-width: 768px) {
+  #ourservices .textbox h2 {
+    font-size: 20px;
+  }
+  #ourservices .textbox h3 {
+    font-size: 17px;
+  }
+  #ourservices .textbox .icon {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
