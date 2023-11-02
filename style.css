@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+  border-radius: 20px;
+}
 .imgbox img {
   width: 100%;
 }
@@ -82,7 +86,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   #welcome .textbox {
-    padding: 20px 0;
+    padding: 40px;
   }
   #welcome .textbox h1 {
     font-size: 28px;
@@ -101,23 +105,29 @@ body {
   }
 }
 @media screen and (max-width: 576px) {
-  #welcome .textbox {
-    padding: 20px 0;
+  #welcome .col-md-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  #welcome .textbox h1 {
+  #welcome .col-md-6 .textbox {
+    padding: 40px;
+  }
+  #welcome .col-md-6 .textbox h1 {
     font-size: 25px;
   }
-  #welcome .textbox h3 {
+  #welcome .col-md-6 .textbox h3 {
     font-size: 16px;
   }
-  #welcome .textbox h2 {
+  #welcome .col-md-6 .textbox h2 {
     font-size: 27px;
   }
-  #welcome .textbox h6 {
+  #welcome .col-md-6 .textbox h6 {
     font-size: 18px;
   }
-  #welcome .imgbox {
-    margin-top: 28px;
+  #welcome .col-md-6 .imgbox {
+    width: 380px;
+    margin: 20px;
   }
 }
 
@@ -160,21 +170,17 @@ body {
   font-size: 20px;
   color: #949494;
 }
-@media screen and (max-width: 992px) {
-  #aboutus .textbox {
-    padding: 0;
+@media screen and (max-width: 1200px) {
+  #aboutus .col-md-6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
-  #aboutus .textbox h3 {
-    line-height: 1.6;
-  }
-  #aboutus .textbox li {
-    padding-top: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #aboutus .imgbox {
-    margin-top: 20px;
-    width: 350px;
+  #aboutus .col-md-6 .textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
 

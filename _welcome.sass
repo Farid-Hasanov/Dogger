@@ -32,7 +32,7 @@
 
     @media screen and ( max-width: 992px )
         .textbox
-            padding: 20px 0
+            padding: 40px
             h1
                 font-size: 28px
             h3
@@ -45,17 +45,20 @@
             margin-top: 20px
 
     @media screen and ( max-width: 576px )
-        .textbox
-            padding: 20px 0
-            h1
-                font-size: 25px
-            h3
-                font-size: 16px
-            h2
-                font-size: 27px
-            h6
-                font-size: 18px
-        .imgbox
-            margin-top: 28px
-        
-        
+        .col-md-6
+            display: flex
+            justify-content: center
+            align-items: center
+            .textbox
+                padding: 40px
+                h1
+                    font-size: 25px
+                h3
+                    font-size: 16px
+                h2
+                    font-size: 27px
+                h6
+                    font-size: 18px
+            .imgbox
+                width: 380px
+                margin: 20px
