@@ -134,17 +134,14 @@ body {
 #aboutus {
   padding: 40px 0;
 }
-#aboutus .textbox {
-  padding: 0 100px;
-}
 #aboutus .textbox .bigicon i {
   color: #5f8288;
   font-size: 30px;
+  padding: 20px;
 }
 #aboutus .textbox h1 {
   font-weight: 700;
   font-size: 35px;
-  margin: 20px 0 0;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
   color: #a8a8a8;
@@ -152,6 +149,7 @@ body {
   font-weight: 100;
   margin: 20px 0 0;
   line-height: 1.6;
+  width: 90%;
 }
 #aboutus .textbox p {
   font-size: 18px;
@@ -170,7 +168,7 @@ body {
   font-size: 20px;
   color: #949494;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   #aboutus .col-md-6 {
     width: 100%;
     display: flex;
@@ -181,6 +179,19 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 40px;
+  }
+  #aboutus .col-md-6 .textbox h1 {
+    font-size: 30px;
+  }
+  #aboutus .col-md-6 .textbox h3, #aboutus .col-md-6 .textbox h4, #aboutus .col-md-6 .textbox p {
+    font-size: 18px;
+  }
+  #aboutus .col-md-6 .textbox .bigicon i {
+    font-size: 25px;
+  }
+  #aboutus .col-md-6 .imgbox {
+    width: 60%;
   }
 }
 
@@ -233,14 +244,28 @@ body {
   margin: -7px;
 }
 @media screen and (max-width: 768px) {
-  #ourtrainers .imgbox {
-    width: 350px;
-    margin-top: 10px;
+  #ourtrainers h1 {
+    font-size: 30px;
   }
-}
-@media screen and (max-width: 576px) {
-  #ourtrainers .imgbox {
-    width: 250px;
+  #ourtrainers h3, #ourtrainers h4 {
+    font-size: 18px;
+  }
+  #ourtrainers .col-md-4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #ourtrainers .col-md-4 .box {
+    margin-bottom: 20px;
+  }
+  #ourtrainers .col-md-4 .box .imgbox {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  #ourtrainers .col-md-4 .box ul {
+    display: flex;
+    justify-content: center;
   }
 }
 
