@@ -26,11 +26,20 @@
             font-size: 60px
 
     @media screen and ( max-width: 768px )
-        .textbox
-            h2
-                font-size: 20px
+        .col-md-4
+            width: 50%
+            h1
+                font-size: 30px
             h3
-                font-size: 17px
-            .icon
-                font-size: 40px
-        
+                font-size: 18px
+
+    @media ( max-width: 576px )
+        .col-md-4
+            width: 100%
+        .wid
+            width: 80%
+        .textbox
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center

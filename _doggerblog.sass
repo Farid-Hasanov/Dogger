@@ -16,6 +16,7 @@
         color: #939393
     .box
         display: flex
+        align-items: center
         .textbox
             margin: 0 0 0 20px
             h2
@@ -30,12 +31,26 @@
             h4,p
                 margin: 20px 0 0
 
-    @media screen and ( max-width: 992px )
+    @media (max-width: 992px)
+        .col-md-6
+            width: 100%
+        .box
+            padding-bottom: 40px
+
+    @media screen and ( max-width: 768px )
+        h1
+            font-size: 30px
+        h3
+            font-size: 18px
+            padding: 10px
         .box
             .textbox
                 h2
                     font-size: 20px
-                h4
+                h4,p
                     font-size: 16px
-                p
-                    font-size: 16px
+
+    @media screen and ( max-width: 576px )
+        .box
+            padding: 30px
+        
